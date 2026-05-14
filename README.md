@@ -6,8 +6,8 @@
 
 Đây là bài kiểm tra giữa kỳ môn ReactJS được thực hiện theo yêu cầu của giảng viên bộ môn.
 
-Sinh viên thực hiện: **Hồ Văn Tiết**
-Đơn vị học tập: **Passerelles Numériques Vietnam(PNV) & DA NANG COLLEGE(DNC)**
+### Sinh viên thực hiện: **Hồ Văn Tiết**
+### Đơn vị học tập: **Passerelles Numériques Vietnam(PNV) & DA NANG COLLEGE(DNC)**
 
 ## Chức năng
 
