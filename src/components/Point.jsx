@@ -9,7 +9,23 @@ export default function Point() {
     })
     const handleChange = (e) => {
         const {name, value} = e.target
-        
+
+        // Kiểm tra điểm HK1 và HK2
+        if (name === 'semester1' || name === 'semester2') {
+            // Cho phép xóa input
+            if (value === '') {
+                setPoint(prev => ({
+                    ...prev,
+                    [name]: value
+                }))
+                return
+            }
+            const number = Number(value)
+            // Chặn nhập < 0 hoặc > 10
+            if (number < 0 || number > 10) {
+                return
+            }
+        }   
         setPoint(prev => ({ 
             ...prev,
             [name]: value 
