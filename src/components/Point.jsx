@@ -55,9 +55,9 @@ export default function Point() {
     }
     return (
         <div>
-            Kỳ 1: <input type="number" name="semester1" value={point.semester1} onChange={handleChange} placeholder="Điểm HK 1" />
+            Điểm kỳ 1: <input type="number" min="0" max="10" name="semester1" value={point.semester1} onChange={handleChange} placeholder="HK1" />
            <br /><br />
-            Kỳ 2: <input type="number" name="semester2" value={point.semester2} onChange={handleChange} placeholder="Điểm HK 2" />
+            Điểm kỳ 2: <input type="number" min="0" max="10" name="semester2" value={point.semester2} onChange={handleChange} placeholder="HK2" />
             <br /><br />
             Năm học: <select name="year" value={point.year} onChange={handleChange}>
                 <option value="">Chọn</option>
